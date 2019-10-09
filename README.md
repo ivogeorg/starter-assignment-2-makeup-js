@@ -1,42 +1,36 @@
 # CPE 1040 - Introduction to Computer Engeneering
 
-## Assignment: Migrating micro:bit Programming from Blocks to JavaScript
+## Assignment: Migrating micro:bit Programming from Blocks to JavaScript (Makeup)
 
 ### 1. Summary
 
-This assignment asks you to go through a [Intro to CS course with Blocks](https://makecode.microbit.org/courses/csintro) for the micro:bit, and write parallel programs using the JavaScript equivalent of the code in the course modules. This assignment is submitted through Github.
+This assignment asks you to go complete the Final Project for the [Intro to CS course with Blocks](https://makecode.microbit.org/courses/csintro) for the micro:bit, in JavaScript, following the [criteria](#criteria) below. This assignment is submitted through Github.
 
-### 2. Requirements
+### 2. Criteira
 
-#### 2.1 Section programs
+#### 2.1 Requirements
+1. The file should have a name and the `.js` file extension.
+2. A project [description](#description) should be included in this [README](README.md) file.	
 
-1. The CS course is broken down into thematic sections. There are 5 sections + 1 midterm project + 5 sections + final project. Each section has 4 parts. You want the _Activity_ part, which contains the section's CS material and Blocks.
+#### 2.2 Code quality
+1. The program should have proper indentation.
+2. Every block of code should contain inline comments, briefly describing its purpose and functionality.	
+3. The program should have good structure, with asynchronous and synchronous code blocks properly differentiated. **Note:** You cannot have more than one `forever` loop.
+4. Variables should be named in either of the following styles:
+   1. `variable_name_of_underscore_delimited_lower_case_words`, or
+   2. `variableNameInCamelCase`
 
-2. You need to write a _working_ JavaScript (JS) program for the micro:bit for each of these sections/projects, for a total of 12.  
+#### 2.3 JavaScript
+1. Variables should be declared with [full static data types](https://makecode.microbit.org/javascript/types).	
+2. Programmatic functionality should be encapsulated in [functions](https://makecode.microbit.org/javascript/functions), and, optionally for **bonus** points, [classes](https://makecode.microbit.org/javascript/classes).	
+3. Functions in JavaScript are [1st class objects](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function). All event constructs like `onButtonPressed` and `onGesture` take functions as arguments.	
+4. A maximum variety of JS language constructs (loops, conditionals, various operators, encapsulations, event handling, etc) should be used.
 
-3. For the non-project sections, you are required to use the JS equivalent of the material from the section. _**Note:** For these programs, you are allowed to look at the JS translation of Blocks programs._
-
-4. For the midterm project, you are required to use the JS equivalent of the material from all 5 preceding sections.  _**Note:** For this project, you are NOT allowed to look at the JS translation of Blocks programs._ (An aside: if you don't know how to read a statement like "you are not allowed to", the intended and preferred interpretation is "you can do whatever you want and won't be penalized by me, but, if you want to learn most effectively, I suggest that you do not resort to...".)
-
-5. For the final project, you are required to use the JS equivalent of the material from all 10 preceding non-project sections. _**Note:** For this project, you are NOT allowed to look at the JS translation of Blocks programs._
-
-#### 2.2 Github commits & tags
-
-1. Working in the Makecode browser environment, you cannot save the JS file of your program in a directory of your choosing. It is stored in an in-browser memory object and is not accessible. (A side note: there might be a Makecode app for Windows which might actually allow that, but there is nothing like that for Mac, to the best of knowledge.) So, you will need to copy the JS from Makecode to another editor (preferably, a code editor with syntax highlighting and code manipulation) and then save and commit it.
-
-2. You need to commit the changes and additions to your assignment for each section or project. This means that there should be _at least_ 12 commits pushed to your remote assignment repository on Github when you are done. I advise you to have more than that, to get used to it.
-
-2. You need to **tag** the final commit for each section. Tags are under _releases_ in the repository bar on the Github page of the assignment repository. The tag should be one of the following `v0.1`, `v0.2`, ..., `v0.12`, for each section, respectively. (Terminology clarification: the `git` command is `git tag`, but tags are counted as _releases_ on Github.)
-
-3. You need to update the assignment repository [README.md](README.md) (this document, in the section [Tags](#tags)) with a short description of your section program or project, **before** you tag. You can do that directly on Github after you push your commits from your local repository.
-
-#### 2.3 Project design
-
-1. For each of the two projects, you need to include a design "document" in the [README.md](README.md) (this document, in the section [Designs](#designs)).
-
-2. The design "document" should follow the _problem-solving tips_ in the [mini-project page](https://makecode.microbit.org/courses/csintro/miniproject).
-
-3. The design "document" should have at least the following sections: Goal, Design process, and JS Language Constructs & Objects. Articulating clearly your engineering work is a key professional skill.
+#### 2.4 micro:bit			
+1. Use of buttons	and/or guestures.
+2. Sensible display update.
+3. Non-trivial functionality.	
+4. Control complexity.
 
 ## Resources
 
@@ -86,44 +80,13 @@ This assignment asks you to go through a [Intro to CS course with Blocks](https:
 
 ---
 
-## Tags
-
-_**Note:** Add your program descriptions below._
-
-### v0.1
-
-**[your description here, linking to the JavaScript [file](example.js)**]
-
-### v0.2
-
-**[etc.]**
-
-## Designs
-
-### v0.7
-
-One sentence description of the [program](new_program.js) just committed. It does so and so....
-
-
-
-_**Note:** Add your project designs below._
-
-### Midterm project
-
-_**Note:** Add your project designs below._
+### Description
 
 #### Goal
-
-**[your short description]**
+TODO
 
 #### Design process
-
-**[your sketches, the things you tried, the questions you asked yourself, the answers, the sticking points, the iterations, the restarts, the final version]**
+TODO
 
 #### JS Constructs & objects
-
-**[which JavaScript features you used in the implementation of your project idea]**
-
-### Final project
-
-**[etc.]**
+TODO
